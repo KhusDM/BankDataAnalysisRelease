@@ -38,7 +38,7 @@ try:
 
     file_path = RELATIVE_PATH + "/Aggregation_Count_Of_Trans_On_Groups(Step№5).py"
     run_script(file_path, "Step№5")
-    print("Select a product group from the table dbo.Aggregation_Count_Of_Trans_On_Groups in which the analysis will be performed,\nand specify them in connect_setting.py in the GROUPS field.\nIf groups are specified, press Enter")
+    input("Select a product groups from the table dbo.Aggregation_Count_Of_Trans_On_Groups in which the analysis will be performed,\nand specify them in connect_setting.py in the GROUPS field.\nIf groups are specified, press Enter")
 
     file_path = RELATIVE_PATH + "/Create_Procedure_CountOfTransForMonthOnClients(Step№6.1).py"
     run_script(file_path, "Step№6.1")
